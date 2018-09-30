@@ -1,0 +1,46 @@
+.BuildControls {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: #F1F1F2; 
+    box-shadow: 0 2px 1px #ccc;
+    margin: auto; 
+    padding: 10px 0;
+}
+
+.Price {
+    padding: 10px;
+    background-color: white;
+}
+
+.Checkout{
+    color: #89DA59;
+    border: 2px solid #89DA59;
+    background-color: #F1F1F2;
+    margin-top: 50px;
+    padding: 10px;
+    outline: none;
+    font-weight: bold;
+}
+
+.Checkout:hover {
+    color: white;
+    background-color: #89DA59;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.Checkout:disabled {
+    background-color: #BCBABE;
+    color: #ccc;
+    cursor: default;
+    border: none
+}
+
+.Checkout:hover:disabled {
+    background-color: #AC9980;
+    color: #ccc;
+    cursor: not-allowed;
+}
+

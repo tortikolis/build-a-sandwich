@@ -1,0 +1,25 @@
+.greenButton{
+    outline: none;
+    border: none;
+    color: rgb(12, 211, 71);
+    font-size: 1rem;
+    background-color: transparent;
+    font-weight: bold;
+    float: right;
+    cursor: pointer;
+}
+
+.redButton{
+    outline: none;
+    border: none;
+    color: rgb(211, 12, 12);
+    font-size: 1rem;
+    background-color: transparent;
+    font-weight: bold;
+    float: left;
+    cursor: pointer;
+}
+
+.Total {
+    text-align: center;
+}
