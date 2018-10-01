@@ -4,7 +4,7 @@ import classes from './OrderSummary.css';
 
 const OrderSummary = (props) => {
 
-    const usedIngredientsList = Object.keys(props.ingredients).filter(ingredient => props.ingredients[ingredient]).map(item => <li>{item}</li>)
+    const usedIngredientsList = Object.keys(props.ingredients).filter(ingredient => props.ingredients[ingredient]).map(item => <li key={item}>{item}</li>)
 
     return (
         <Fragment>

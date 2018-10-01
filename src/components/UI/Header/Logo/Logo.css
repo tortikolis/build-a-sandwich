@@ -1,0 +1,15 @@
+.logo{
+    margin: 5px;
+    margin-left: 10px;
+    font-family:'Yesteryear', cursive;
+    font-size: 1.2rem;
+    color: rgb(65, 65, 65);
+    text-align: center;
+}
+
+.logo img {
+    display: block;
+    width: 70px;
+    margin: 5px;
+    margin: 0 auto;
+}

@@ -1,12 +1,13 @@
 import React, { Fragment } from 'react';
 
-import Builder from '../../containers/Builder/Builder'
+import Builder from '../../containers/Builder/Builder';
+import Header from '../UI/Header/Header';
 
 
 const Layout = () => {
     return (
         <Fragment>
-            <div>Header</div>
+            <Header />
             <Builder />
         </Fragment>
     )
